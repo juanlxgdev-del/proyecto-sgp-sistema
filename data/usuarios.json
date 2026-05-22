@@ -1,0 +1,24 @@
+[
+  {
+    "id_usuario": 1,
+    "nombre": "admin",
+    "contraseña_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "rol": "Administrador",
+    "permisos_globales": [
+      "inventario",
+      "usuarios",
+      "reportes",
+      "caja_chica",
+      "deudores",
+      "precios"
+    ]
+  },
+  {
+    "id_usuario": 2,
+    "nombre": "trabajador 1",
+    "contraseña_hash": "46689a646e95da8dc3606f37695fcf57bb5843a4c29bc181bb40a507cdb18bd7",
+    "rol": "Trabajador",
+    "ventas_del_dia": 0.0,
+    "hora_entrada": null
+  }
+]
