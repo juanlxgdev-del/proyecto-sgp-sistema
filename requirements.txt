@@ -1,0 +1,12 @@
+# SGP - Dependencias
+# Python 3.10+
+
+# Librerías incluidas en la stdlib (no requieren instalación):
+#   tkinter, json, os, hashlib, datetime, typing, subprocess
+
+# Librerías requeridas (interfaz, reportes y PDF):
+matplotlib>=3.7.0
+pandas>=2.0.0
+Pillow>=10.0.0
+fpdf2>=2.7.0
+openpyxl>=3.1.0

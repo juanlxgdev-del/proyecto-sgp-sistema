@@ -1,0 +1,35 @@
+# Entorno Virtual local de Python (Muy pesado y específico del sistema)
+.venv/
+venv/
+ENV/
+env/
+
+# Caché de Python y compilados
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de Datos Locales y Transacciones de Prueba
+# Opcional: ignorar el historial de transacciones locales para no ensuciar la base de datos de producción
+data/ventas.json
+data/caja_chica.json
+data/clientes.json
+
+# Tickets PDF generados dinámicamente
+data/tickets/
+*.pdf
+
+# Configuración personal de Editores e IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Imágenes temporales o generadas
+*.png
+!data/imagenes/*.png # ¡NO ignorar las fotos oficiales del catálogo de productos!
+!Sistema_img/*.png   # ¡NO ignorar los logos oficiales de la aplicación!
